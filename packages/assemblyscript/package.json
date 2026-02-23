@@ -1,0 +1,23 @@
+{
+  "name": "array-first",
+  "version": "1.0.2",
+  "description": "Get the first element or first n elements of an array (WebAssembly build).",
+  "main": "build/release.js",
+  "types": "build/release.d.ts",
+  "scripts": {
+    "asbuild": "asc assembly/index.ts -o build/release.wasm -t build/release.wat --optimize --exportRuntime",
+    "asbuild:debug": "asc assembly/index.ts -b build/debug.wasm -t build/debug.wat --debug",
+    "build": "npm run asbuild",
+    "test": "node tests/index.js"
+  },
+  "keywords": ["array", "first", "utility", "webassembly", "wasm", "assemblyscript"],
+  "author": "Jon Schlinkert",
+  "license": "MIT",
+  "repository": "jonschlinkert/array-first",
+  "devDependencies": {
+    "assemblyscript": "^0.27.0"
+  },
+  "dependencies": {
+    "@assemblyscript/loader": "^0.27.0"
+  }
+}

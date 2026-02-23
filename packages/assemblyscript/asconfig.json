@@ -1,0 +1,15 @@
+{
+  "targets": {
+    "release": {
+      "optimizeLevel": 3,
+      "shrinkLevel": 0,
+      "binaryFile": "build/release.wasm",
+      "textFile": "build/release.wat"
+    },
+    "debug": {
+      "debug": true,
+      "binaryFile": "build/debug.wasm",
+      "textFile": "build/debug.wat"
+    }
+  }
+}

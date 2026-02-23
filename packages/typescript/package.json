@@ -1,0 +1,19 @@
+{
+  "name": "array-first",
+  "version": "1.0.2",
+  "description": "Get the first element or first n elements of an array.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run"
+  },
+  "keywords": ["array", "first", "utility", "typescript"],
+  "author": "Jon Schlinkert",
+  "license": "MIT",
+  "repository": "jonschlinkert/array-first",
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "vitest": "^1.0.0"
+  }
+}
