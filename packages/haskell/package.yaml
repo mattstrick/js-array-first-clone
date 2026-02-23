@@ -1,0 +1,9 @@
+name: array-first
+version: 1.0.2
+github: jonschlinkert/array-first
+license: MIT
+author: Jon Schlinkert
+description: Get the first element or first n elements of a list.
+
+library:
+  source-dirs: src

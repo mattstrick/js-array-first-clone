@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "array-first"
+version = "1.0.2"
+description = "Get the first element or first n elements of a list."
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Jon Schlinkert"}]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["array_first*"]

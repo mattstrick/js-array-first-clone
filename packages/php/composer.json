@@ -1,0 +1,14 @@
+{
+  "name": "array-first/array-first",
+  "description": "Get the first element or first n elements of an array.",
+  "license": "MIT",
+  "autoload": {
+    "files": ["src/array_first.php"]
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10"
+  },
+  "scripts": {
+    "test": "phpunit"
+  }
+}

@@ -1,0 +1,12 @@
+[package]
+name = "array-first"
+version = "1.0.2"
+edition = "2021"
+authors = ["Jon Schlinkert"]
+description = "Get the first element or first n elements of a slice."
+license = "MIT"
+repository = "https://github.com/jonschlinkert/array-first"
+
+[dependencies]
+
+[dev-dependencies]

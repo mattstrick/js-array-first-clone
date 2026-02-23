@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>ArrayFirst</RootNamespace>
+    <PackageId>ArrayFirst</PackageId>
+    <Version>1.0.2</Version>
+    <Authors>Jon Schlinkert</Authors>
+    <Description>Get the first element or first n elements of a list. C# port of array-first-javascript.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+</Project>
